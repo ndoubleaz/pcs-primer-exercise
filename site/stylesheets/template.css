@@ -27,10 +27,14 @@ body {
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
+#wrapper {
+  max-width:940px;
+  margin:0 auto;
+  padding: 0 5%;
+}
 
 .container {
   width: 100%;
-  min-width: 900px;
   margin-left: auto;
   margin-right: auto;
   background-color: #77B008;
